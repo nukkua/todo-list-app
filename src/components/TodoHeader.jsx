@@ -5,7 +5,7 @@ export const TodoHeader = () => {
 	const { todosCount, todosPendingCount, handleClearAll } = useContext(TodoContext);
 	return (
 		<>
-			<h1 className="text-4xl font-bold mb-6 text-center text-gray-800">Todo List App</h1>
+			<h1 className="text-4xl font-bold mb-6 text-center text-gray-800">ToDo List App</h1>
 			<p className="text-blue-600">All : {todosCount}</p>
 			<p className="text-orange-500">Pending : {todosPendingCount}</p>
 			<button
